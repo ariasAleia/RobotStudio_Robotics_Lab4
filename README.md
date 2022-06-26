@@ -1,1 +1,1 @@
-# RobotStudio_Robotics_Lab4
+# RobotStudio_Robotics_Lab4: Industrial Robotics
