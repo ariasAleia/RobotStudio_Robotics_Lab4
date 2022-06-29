@@ -50,9 +50,37 @@ When computing the obtained values, a tooldata is returned that will allow us to
 
 ## Creation of virtual tool in robotstudio
 
-Edwin: Poner el método directo desde robotstudio (en el video se explica todo)
+Ok, now for comparison purposes we import the CAD model of the tool into RobotStudio, for this we import our geometry as a .SAT file.
 
-Y el método directamente con el robot que hicimos
+![](images/impotgeo.png)
+
+After verifying that the geometry will be imported correctly, we proceed to create the TCP coordinate base of the new tool, in this case the coordinate base is called Frame_1.
+
+![](images/mktcp.png)
+
+Frame_1 is then placed at the tip of the tool and constrained to be normal to the contact surface.
+
+![](images/tcpnormal.png)
+
+This point only remains for us to convert our mesh into a virtual tool that can be used from RobotStudio, for this we go to the modeling section, Create tool where the following dialog boxes will appear.
+
+![](images/creartool.png)
+
+The first of the pop-up windows asks us for a name for the tool, its mass as well as the center of mass, fortunately for us RobotStudio provides the necessary resources to associate the latter automatically.
+
+As for the mass of the tool, it was obtained by conventional means.
+
+![](images/convencional.png)
+
+The second popup only asks us to assign a frame, at this point we clearly mark Frame_1
+
+![](images/creatool2.png)
+
+Now proceed to place the tool on the side of the robot, leaving it ready to start working.
+
+Here you can see our assembled tool.
+
+![](images/Robot1.png)
 
 ## Path generation in Robotstudio
 
