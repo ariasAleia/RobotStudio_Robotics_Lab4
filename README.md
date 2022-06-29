@@ -52,7 +52,7 @@ When computing the obtained values, a tooldata is returned that will allow us to
 
 Ok, now for comparison purposes we import the CAD model of the tool into RobotStudio, for this we import our geometry as a .SAT file.
 
-![](images/impotgeo.png)
+![](images/importgeo.png)
 
 After verifying that the geometry will be imported correctly, we proceed to create the TCP coordinate base of the new tool, in this case the coordinate base is called Frame_1.
 
