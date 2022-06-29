@@ -18,33 +18,33 @@ Camilo
 
 Well, once we have designed the tool, we proceed to mount it on the robot and see that it fits correctly.
 
-![](images/montaje.jpg)
+![](images/montaje.png)
 
 To carry out the calibration process of the built tool, it is first necessary to create an empty tooldata object located on the robot's flank, to which values ​​are assigned automatically, using a four-point and one-axis technique, which consists of performing four approaches with the tool to a point in space which is indicated by a guide like the one shown in the figure.
 
-![](images/guia.jpg)
+![](images/guia.png)
 
 These approaches are made with different orientations, and at the end a last approach will be made from the z axis.
 
 ### Position 1
 
-![](images/pos1.jpg)
+![](images/pos1.png)
 
 ### Position 2
 
-![](images/pos2.jpg)
+![](images/pos2.png)
 
 ### Position 3
 
-![](images/pos3.jpg)
+![](images/pos3.png)
 
 ### Position 4
 
-![](images/pos4.jpg)
+![](images/pos4.png)
 
 ### z-axis
 
-![](images/ejez.jpg)
+![](images/ejez.png)
 
 When computing the obtained values, a tooldata is returned that will allow us to manipulate the tool in an appropriate way.
 
@@ -77,6 +77,8 @@ The second popup only asks us to assign a frame, at this point we clearly mark F
 ![](images/creatool2.png)
 
 Now proceed to place the tool on the side of the robot, leaving it ready to start working.
+
+![](images/conectartool.png)
 
 Here you can see our assembled tool.
 
