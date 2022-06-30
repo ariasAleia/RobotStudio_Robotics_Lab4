@@ -227,3 +227,5 @@ And the one with a different position and orientation in this video: [Inclined p
 ## Conclusions
 
 Setting up all the components to create the path for the TCP was a realtively easy task. After knowing how the software works, it was easy to check and try again if necessary with the help of simulations. However, real life tends to be quite different. It is really important to take into account all the obstacles that may appear in the way when checking the behaviour in a real environment. These kind of things occur not only in an academic space but also in the industry.
+
+The tool spring played a fundamental role in the lab due to the board uneveness, it could be seen as a trivial thing in the academic world using a marker, but in a real world industrial application, the spring or a equivalent system could be fundamental for the proper behavior of the tool.
